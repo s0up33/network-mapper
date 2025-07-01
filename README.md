@@ -28,7 +28,7 @@ It combines raw-socket ARP sweeps with TCP connect / RST detection and presents 
 - **github.com/j-keck/arping v1.0.3** -> pulled automatically by `go mod tidy`
 - **Root / `CAP_NET_RAW`** -> `sudo setcap cap_net_raw+ep ./network-mapper`
 
-No third-party ports or Python libs required—everything else is pure standard library.
+No third-party ports or Python libs required; everything else is pure standard library.
 
 ---
 
