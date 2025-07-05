@@ -41,7 +41,7 @@ cd network-mapper
 go mod tidy
 
 # build (optional)
-go build -o network-mapper ./network-mapper
+go build -o network-mapper .
 
 # enumerate a /24 as root (ARP + TCP)
 sudo ./network-mapper \
