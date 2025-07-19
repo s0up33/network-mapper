@@ -1,4 +1,4 @@
-# Network-Mapper
+# Network Mapping Tool
 
 A network scanner for discovering live hosts on a subnet **without relying on ICMP**.  
 It combines raw-socket ARP sweeps with TCP connect / RST detection and presents a concise target list.
